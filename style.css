@@ -1,122 +1,138 @@
-    .Top-Box {
-        display: flex;
-        justify-content: space-around;
-    }
+.Top-Box {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .Nav {
-        justify-content: flex-end;
-    }
+.Nav {
+    justify-content: flex-end;
+}
 
-    ul {
-        display: flex;
-        gap: 20px;
-    }
+ul {
+    display: flex;
+    gap: 20px;
+}
 
-    ul li {
-        list-style: none;
-    }
+ul li {
+    list-style: none;
+}
 
-    .Top-Corner {
-        justify-content: center;
-        padding: 10px;
-    }
+.Top-Corner {
+    justify-content: center;
+    padding: 10px;
+}
 
-    .Buy {
-        font-family: Arial, Helvetica, sans-serif;
-        border: 2px solid;
-        border-radius: 5PX;
-        text-align: center;
-        padding: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
+.Buy {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-radius: 5PX;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
-    .Heading {
-        margin-top: 50px;
-        text-align: center;
-    }
+.Heading {
+    margin-top: 50px;
+    text-align: center;
+}
 
-    .Below-Head {
-        text-align: center;
-        margin-top: 25px;
-        font-size: larger;
-    }
-    .DownC{
-        margin-top: 1rem;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.Below-Head {
+    text-align: center;
+    margin-top: 25px;
+    font-size: larger;
+}
 
-    .Download-Button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        border: 2px solid;
-        width: 15%;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: aqua;
-        color: aliceblue;
-    }
+.DownC {
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .Mid {
-        text-align: center;
-        margin-top: 50px;
-    }
+.Download-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid;
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: aliceblue;
+}
 
-    .container {
-        margin-top: 50px;
-        justify-content: center;
-        display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 100px 100px 100px;
-        gap: 10px;
-    }
+.Mid {
+    text-align: center;
+    margin-top: 50px;
+}
 
-    .item {
-        border: 2px solid;
-        text-align: center;
-        border-radius: 5px;
-        border-color: azure;
-        background-color: azure;
-        padding-top: 30px;
-    }
+.container {
+    margin: 50px auto;
+    width: fit-content;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
 
-    .last {
-        text-align: center;
-        border: 2px solid;
-        display: flex;
-        height: 500px;
-        background-color: rgb(36, 36, 36);
-        color: aliceblue;
-        justify-content: space-around;
-        margin-top: 50px;
-        align-items: center;
-    }
+.item {
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: azure;
+    background-color: azure;
+}
 
-    .text {
-        width: 500px;
+.last {
+    text-align: center;
+    border: 2px solid;
+    display: flex;
+    height: 500px;
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
 
-    }
+.text {
+    width: 500px;
 
-    .box {
-        text-align: center;
-        background-color: aliceblue;
-        color: rgb(0, 81, 255);
-        height: 150px;
-        width: 300px;
-        margin-top: 25px;
-        padding: 20px;
-        font-size: 30px;
-    }
+}
 
-    .box2 {
-        margin-top: 20px;
-        text-align: center;
-        align-items: center;
-        color: black;
-        font-size: 15px;
-    }
+.box {
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 81, 255);
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.box2 {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+}
+
+.button {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(114, 226, 114);
+    color: white;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
